@@ -1,0 +1,75 @@
+body{
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Lilita One', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Tiro Bangla', serif;
+  font-family: 'Victor Mono', monospace;
+  padding: 2em;
+  background-color: #A20C2A;
+  
+  
+}
+.navbar{
+  background-color: #D3363E;
+}
+
+.btn{
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 16px;
+  background-color: #210709;
+  color: white;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px#FBEEEF(0, 0, 0,.7);
+}
+.bt:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.discount{
+  margin-top: 20px;
+  text-align: center;
+  background-color: #E2E3E3;
+  border:solid 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border-color: #A20C2A;
+}
+.ac-items{
+  background-color:#D3363E;
+  padding: auto;
+  height: 100vh;
+  
+}
+.first-ac{
+  size: 100cm;
+  width: 500px;
+  
+}
+.text-center{
+  text-align: center;
+  color: #FBEEEF;
+}
+.blender-lady{
+  text-align:left;
+}
+.text-justify{
+  text-align: right;
+  overflow: hidden;
+}
